@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 32px;
+    height: 100vh;
+    position: relative;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+}
+
+.img-container img {
+    cursor: pointer;
+}
+
+
+#image-1 {
+   
+}
+#image-2 {
+
+ }
+
+.image1 {
+    display: none;
+}
+
+.image2 {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
